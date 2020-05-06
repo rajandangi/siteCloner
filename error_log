@@ -1,0 +1,1 @@
+[22-Apr-2018 16:59:48 UTC] PHP Fatal error:  Call to a member function query() on boolean in /home/tameasy/public_html/sitecloner/system/database/drivers/mysqli/mysqli_driver.php on line 221

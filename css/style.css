@@ -1,0 +1,123 @@
+body {
+	background: #e6eaeb;
+	padding-top: 20px;
+	font-family: 'Droid Sans', Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Ubuntu, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+header {
+	margin-bottom: 60px;
+}
+
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+
+.navbar .navbar-brand {
+	font-weight: 400 !important;
+}
+
+.navbar .navbar-brand img {
+	width: 25px;
+	float: left;
+	margin-right: 10px;
+}
+
+hr.dashed {
+	border-top: 2px dashed #C6CBCE;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+	cursor: pointer;
+	position: relative;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after {
+	position: absolute;
+	top: 10px;
+	right: 17px;
+	display: block;
+	font-family: 'Glyphicons Halflings';
+	opacity: 0.5;
+}
+table.dataTable thead .sorting:after {
+	opacity: 0.2;
+	content: "\e150"; /* sort */
+}
+table.dataTable thead .sorting_asc:after {
+	content: "\e155"; /* sort-by-attributes */
+}
+table.dataTable thead .sorting_desc:after {
+	content: "\e156"; /* sort-by-attributes-alt */
+}
+
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+	color: #eee;
+}
+
+table.clonesTable, table.sitesTable {
+	background: #EFF2F3;
+}
+
+table.clonesTable a .fa, table.sitesTable a .fa {
+	color: #34495E;
+}
+
+table.clonesTable a:hover .fa, table.sitesTable a:hover .fa {
+	color: #1ABC9C;
+}
+
+table .statusItems > * {
+	display: none;
+}
+
+table .tableActions > * {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+table .urlWrapper {
+	height: 20px;
+	text-overflow: ellipsis;
+	overflow-x: hidden;
+}
+
+.cloningProgress, .cloneLog {
+	max-height: 350px;
+	font-size: 15px;
+	overflow-y: auto;
+	word-wrap: break-word;
+}
+
+
+.cloneReadyAction {
+	border: 2px dashed #F4A72F;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+
+/* Datatables */
+
+.dataTables_info {
+	font-size: 15px;
+}
+
+/* end Datatables */
