@@ -1,5 +1,5 @@
 # siteCloner
-You can clone any website and It will create the Html copy of the website and you can direct download and Upload. Making a copy of my Lead copyright. It is all your responsibility. 
+**You can clone any website and It will create the Html copy of the website and you can direct download and Upload. Making a copy of my Lead copyright. It is all your responsibility. 
 #Framework	** Codeignitor, PHP, MYSQL
 High Resolution	Yes
 Compatible Browsers	IE11, Firefox, Safari, Opera, Chrome, Edge
